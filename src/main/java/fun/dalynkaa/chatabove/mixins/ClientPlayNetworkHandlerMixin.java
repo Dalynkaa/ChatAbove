@@ -1,7 +1,7 @@
-package me.ryfi.chatheads.mixins;
+package fun.dalynkaa.chatabove.mixins;
 
-import me.ryfi.chatheads.chat.ChatManager;
-import me.ryfi.chatheads.util.Version;
+import fun.dalynkaa.chatabove.chat.ChatManager;
+import fun.dalynkaa.chatabove.util.Version;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.network.ClientPlayNetworkHandler;
 import net.minecraft.network.packet.s2c.play.ChatMessageS2CPacket;

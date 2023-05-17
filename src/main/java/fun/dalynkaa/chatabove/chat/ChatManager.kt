@@ -1,8 +1,8 @@
-package me.ryfi.chatheads.chat
+package `fun`.dalynkaa.chatabove.chat
 
-import me.ryfi.chatheads.ChatHeads
-import me.ryfi.chatheads.ChatHeads.messageCache
-import me.ryfi.chatheads.util.chunkedMessage
+import `fun`.dalynkaa.chatabove.ChatHeads
+import `fun`.dalynkaa.chatabove.ChatHeads.messageCache
+import `fun`.dalynkaa.chatabove.util.chunkedMessage
 import net.minecraft.client.font.TextRenderer
 import net.minecraft.client.MinecraftClient
 import net.minecraft.client.network.AbstractClientPlayerEntity

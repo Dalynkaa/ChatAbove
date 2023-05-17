@@ -1,6 +1,7 @@
-package me.ryfi.chatheads.mixins;
+package fun.dalynkaa.chatabove.mixins;
 
-import me.ryfi.chatheads.ChatHeads;
+import fun.dalynkaa.chatabove.ChatHeads;
+import fun.dalynkaa.chatabove.ChatHeads;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.gui.screen.option.ChatOptionsScreen;
 import net.minecraft.client.gui.screen.option.SimpleOptionsScreen;

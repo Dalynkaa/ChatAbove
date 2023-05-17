@@ -1,0 +1,9 @@
+{
+  "text.autoconfig.chatabove.category": "Chat Heads mod",
+  "text.autoconfig.chatabove.title": "Chat heads",
+  "text.autoconfig.chatabove.option.chatEnabled": "показывать чат",
+  "text.autoconfig.chatabove.option.chatRenderDelay": "задержка отображения",
+  "text.autoconfig.chatabove.option.maxLineSize": "максимальная длинна строки",
+  "text.autoconfig.chatabove.option.chatTextSize": "размер текста",
+  "text.autoconfig.chatabove.option.chatTextColor": "цвет текста"
+}
