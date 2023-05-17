@@ -1,7 +1,9 @@
-package me.ryfi.chatheads.mixins;
+package fun.dalynkaa.chatabove.mixins;
 
-import me.ryfi.chatheads.ChatHeads;
-import me.ryfi.chatheads.chat.ChatManager;
+import fun.dalynkaa.chatabove.ChatHeads;
+import fun.dalynkaa.chatabove.chat.ChatManager;
+import fun.dalynkaa.chatabove.ChatHeads;
+import fun.dalynkaa.chatabove.chat.ChatManager;
 import net.minecraft.client.gui.screen.option.SimpleOptionsScreen;
 import net.minecraft.client.network.AbstractClientPlayerEntity;
 import net.minecraft.client.render.VertexConsumerProvider;

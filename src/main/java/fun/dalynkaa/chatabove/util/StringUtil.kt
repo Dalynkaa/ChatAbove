@@ -1,4 +1,4 @@
-package me.ryfi.chatheads.util
+package `fun`.dalynkaa.chatabove.util
 
 fun String.chunkedMessage(
     size: Int

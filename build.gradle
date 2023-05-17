@@ -36,6 +36,8 @@ dependencies {
     modImplementation("net.fabricmc:fabric-language-kotlin:1.9.4+kotlin.1.8.21")
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+
+    modApi "com.terraformersmc:modmenu:7.0.0-beta.2"
 }
 
 processResources {

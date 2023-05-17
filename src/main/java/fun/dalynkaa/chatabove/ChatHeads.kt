@@ -1,10 +1,10 @@
-package me.ryfi.chatheads
+package `fun`.dalynkaa.chatabove
 
 import com.google.common.cache.Cache
 import com.google.common.cache.CacheBuilder
 import com.mojang.brigadier.CommandDispatcher
-import me.ryfi.chatheads.util.Settings
-import me.ryfi.chatheads.util.Version
+import `fun`.dalynkaa.chatabove.util.Settings
+import `fun`.dalynkaa.chatabove.util.Version
 import me.shedaniel.autoconfig.AutoConfig
 import me.shedaniel.autoconfig.annotation.Config
 import me.shedaniel.autoconfig.serializer.JanksonConfigSerializer
@@ -25,7 +25,7 @@ import java.util.concurrent.TimeUnit
 
 object ChatHeads : ClientModInitializer {
     @JvmStatic
-    var REPO_URL = "https://raw.githubusercontent.com/Dalynkaa/ChatAbove/1.19.2"
+    var REPO_URL = "https://raw.githubusercontent.com/Dalynkaa/ChatAbove/1.19.4"
 
     // Список сообщений
     lateinit var messageCache: Cache<String, List<String>>
@@ -46,7 +46,7 @@ object ChatHeads : ClientModInitializer {
 
         val configHolder = AutoConfig.getConfigHolder(Settings::class.java)
         configHolder
-            .registerSaveListener { cfgh,
+            .registerSaveListener { _,
                                     newSettings ->
 
                 messageCache =

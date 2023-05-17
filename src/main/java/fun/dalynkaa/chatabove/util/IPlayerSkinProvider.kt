@@ -1,4 +1,4 @@
-package me.ryfi.chatheads.util
+package `fun`.dalynkaa.chatabove.util
 
 import java.io.File
 

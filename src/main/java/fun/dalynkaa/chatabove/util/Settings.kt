@@ -1,4 +1,4 @@
-package me.ryfi.chatheads.util
+package `fun`.dalynkaa.chatabove.util
 
 import me.shedaniel.autoconfig.ConfigData
 import me.shedaniel.autoconfig.annotation.Config

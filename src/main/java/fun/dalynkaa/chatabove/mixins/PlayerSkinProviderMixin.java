@@ -1,11 +1,13 @@
-package me.ryfi.chatheads.mixins;
+package fun.dalynkaa.chatabove.mixins;
 
 import com.google.common.hash.Hashing;
 import com.mojang.authlib.GameProfile;
 import com.mojang.authlib.minecraft.MinecraftProfileTexture;
 import com.mojang.blaze3d.systems.RenderSystem;
-import me.ryfi.chatheads.ChatHeads;
-import me.ryfi.chatheads.util.IPlayerSkinProvider;
+import fun.dalynkaa.chatabove.ChatHeads;
+import fun.dalynkaa.chatabove.util.IPlayerSkinProvider;
+import fun.dalynkaa.chatabove.ChatHeads;
+import fun.dalynkaa.chatabove.util.IPlayerSkinProvider;
 import net.minecraft.client.texture.PlayerSkinProvider;
 import net.minecraft.client.texture.PlayerSkinTexture;
 import net.minecraft.client.texture.TextureManager;

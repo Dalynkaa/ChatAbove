@@ -1,6 +1,6 @@
-package me.ryfi.chatheads.util
+package `fun`.dalynkaa.chatabove.util
 
-import me.ryfi.chatheads.ChatHeads
+import `fun`.dalynkaa.chatabove.ChatHeads
 import java.io.BufferedReader
 import java.io.InputStreamReader
 import java.net.HttpURLConnection
@@ -13,7 +13,7 @@ object Version {
     private var url = URL("${ChatHeads.REPO_URL}/version.txt")
 
 
-    var hasUpdates = false
+    private var hasUpdates = false
 
     fun checkForUpdates() {
         val http: HttpURLConnection = url.openConnection() as HttpURLConnection
